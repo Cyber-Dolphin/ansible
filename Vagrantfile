@@ -9,7 +9,7 @@ servers=[
     :hostname => NODE + "master",
     :ip => test_net + "10",
     :distrib => DISTR + "ubuntu",
-    :share => false,
+    :share_disable => false,
     :vbguest => true
   },
   {
